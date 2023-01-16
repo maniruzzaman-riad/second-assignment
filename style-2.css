@@ -1,0 +1,264 @@
+*{
+    font-family:sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    width: 1440px;
+}
+.containar{
+    width: 992px;
+   
+}
+.full-wrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+img{
+    width: 100%;
+   
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+}
+h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+/* ----------------------header section css start from here--------------------- */
+
+.brand-heading{
+    font-size: 65px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.header-wrap{
+    background-color: #FFF4E7;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-bar{
+    margin-top: 40px;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+.nav-menu ul li{
+    padding: 20px;
+}
+
+.brand-wrap{
+    width: 700px;
+    text-align: center;
+    margin-left: 150px;
+
+    
+}
+
+.button{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
+}
+
+.brand-containar>img{
+    margin-bottom: 45px;
+    margin-top: 40px;
+}
+
+/*--------------------------------------------------------------------
+               quick list containar css start
+---------------------------------------- ---------------------------*/
+
+.quick-list-containar{
+    display: flex;
+    margin: 50px;
+    gap: 70px;
+    align-items: center;
+    
+}
+.quick-list-containar .split{
+    width: 50%;
+}
+
+.quick-list-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.gray-span{
+    color: #727272;
+}
+.orange-span{
+    color: #FF900E;
+}
+/* ------------------------------------------------------------
+            Features-containar css start                    
+    --------------------------------------------------------- */
+
+.Features-wrap{
+    display: flex;
+    gap: 50px;
+ }   
+ .Features-containar .split1{
+    width: 50%;
+ }
+ .Features-title .Features-box{
+    width: 430px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+ }
+ .Features-title > h2{
+    border-left: 5px solid orange;
+    padding-left:13px ;
+    margin-bottom: 20px;
+    
+ }
+ .Features-box > h4{
+    margin-bottom:15px;
+ }
+ 
+.Experience-button{
+    background-color:#FF900E;
+    position: relative;
+    left: 475px;
+    bottom: 120px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+ }
+ .Experience-button h4{
+    font-size: 25px;
+    font-weight: 500;
+ }
+.Experience-button h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+/* -----------------Some Facts css start from here------------------ */
+
+.Facts-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+ 
+}
+.Facts-box img{
+    width: 50px;
+    height: 50px;
+}
+.Facts-box{
+    border: 1px solid #FFD6A8;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 1s ;
+    
+}
+.Facts-title{
+    width: 400px;
+}
+.Facts-title > h2{
+    margin-bottom: 20px;
+}
+.Facts-box:hover{
+    transform: scale(1.4);
+    background-color: chocolate;
+    color: white;
+}
+    
+/* ------------------------this is extra section css------------------- */
+
+.service-containar{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.service-box{
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+.service-box img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    padding: 30px;
+}
+.service-box h3{
+    margin-bottom: 20px;
+}
+
+/* -----------------Sponspors style start from here------------------- */
+
+.Sponspors-title{
+    width: 500px;
+    text-align: center;
+}
+.Sponspors-title h2{
+    padding: 15px;
+}
+.Sponspors-title-wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Sponspors-box{
+    height: 40px;
+    width: 110px;
+    background-color: white;
+}
+.Sponspors-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.Sponspors-box img{
+    mix-blend-mode:luminosity;
+}
+/* ----------------------this is footer style------------- */
+.footer{
+    background-color: #FFF4E7;
+    text-align: center;
+    margin-top: 30px;
+}
+.footer p{
+    padding: 30px;
+}
+
+/* -------------Small device Responsive style start------------------------------- */
+
+
+@media screen and (max-width: 576px) {
+    .nav-menu ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+}
+
+
+
+
